@@ -30,3 +30,155 @@ def angle_quantum_state(x,y):
 	# else degree of the angle is the same as degree of the angle with state |0>
 	return angle_degree	
 	
+def oracle1(circuit,quantum_reg,number):
+    # prepare ancilla qubit
+    # circuit.x(quantum_reg[2])
+    # circuit.h(quantum_reg[2])
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+    if(number < 2):
+        circuit.x(quantum_reg[1])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[2])
+    if(number < 2):
+        circuit.x(quantum_reg[1])
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+    # put ancilla qubit back into state |0>
+    # circuit.h(quantum_reg[2])
+    # circuit.x(quantum_reg[2])
+
+def oracle2(circuit,quantum_reg,number):
+    # prepare ancilla qubit
+    circuit.x(quantum_reg[4])
+    circuit.h(quantum_reg[4])
+
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+    if(number%4 < 2):
+        circuit.x(quantum_reg[1])
+    if(number < 4):
+        circuit.x(quantum_reg[2])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[3])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[4])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[3])
+    if(number < 4):
+        circuit.x(quantum_reg[2])
+    if(number%4 < 2):
+        circuit.x(quantum_reg[1])
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+
+    # put ancilla qubit back into state |0>
+    circuit.h(quantum_reg[4])
+    circuit.x(quantum_reg[4])
+
+def oracle3(circuit,quantum_reg,number):
+    # prepare ancilla qubit
+    circuit.x(quantum_reg[6])
+    circuit.h(quantum_reg[6])
+
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+    if(number%4 < 2):
+        circuit.x(quantum_reg[1])
+    if(number%8 < 4):
+        circuit.x(quantum_reg[2])
+    if(number < 8):
+        circuit.x(quantum_reg[3])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[4])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[5])
+    circuit.ccx(quantum_reg[4],quantum_reg[5],quantum_reg[6])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[5])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[4])
+    if(number < 8):
+        circuit.x(quantum_reg[3])
+    if(number%8 < 4):
+        circuit.x(quantum_reg[2])
+    if(number%4 < 2):
+        circuit.x(quantum_reg[1])
+    if(number%2 == 0):
+        circuit.x(quantum_reg[0])
+
+    # put ancilla qubit back into state |0>
+    circuit.h(quantum_reg[6])
+    circuit.x(quantum_reg[6])
+
+def diffusion1(circuit,quantum_reg):
+    #step 1
+    # circuit.x(quantum_reg[2])
+    # circuit.h(quantum_reg[2])
+    
+    #step 2
+    circuit.h(quantum_reg[1])
+    circuit.h(quantum_reg[0])
+    circuit.x(quantum_reg[1])
+    circuit.x(quantum_reg[0])
+
+    #step 3
+    circuit.ccx(quantum_reg[1],quantum_reg[0],quantum_reg[2])
+
+    #step 4
+    circuit.x(quantum_reg[1])
+    circuit.x(quantum_reg[0])
+    circuit.h(quantum_reg[1])
+    circuit.h(quantum_reg[0])
+
+    #step 5
+    # circuit.h(quantum_reg[2])
+    # circuit.x(quantum_reg[2])
+    
+    #step 6
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
+
+def diffusion2(circuit,quantum_reg):
+    circuit.x(quantum_reg[4])
+    circuit.h(quantum_reg[4])
+
+    for i in range(3):
+        circuit.h(quantum_reg[i])
+        circuit.x(quantum_reg[i])
+
+    circuit.ccx(quantum_reg[1],quantum_reg[0],quantum_reg[3])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[4])
+    circuit.ccx(quantum_reg[1],quantum_reg[0],quantum_reg[3])
+
+    for i in range(3):
+        circuit.x(quantum_reg[i])
+        circuit.h(quantum_reg[i])
+
+    circuit.h(quantum_reg[4])
+    circuit.x(quantum_reg[4])
+    
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
+
+def diffusion3(circuit,quantum_reg):
+    circuit.x(quantum_reg[6])
+    circuit.h(quantum_reg[6])
+
+    for i in range(4):
+        circuit.h(quantum_reg[i])
+        circuit.x(quantum_reg[i])
+
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[4])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[5])
+    circuit.ccx(quantum_reg[4],quantum_reg[5],quantum_reg[6])
+    circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[5])
+    circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[4])
+
+    for i in range(4):
+        circuit.x(quantum_reg[i])
+        circuit.h(quantum_reg[i])
+
+    circuit.h(quantum_reg[6])
+    circuit.x(quantum_reg[6])
+    
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
+    circuit.z(quantum_reg[0])
+    circuit.x(quantum_reg[0])
