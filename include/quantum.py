@@ -183,20 +183,17 @@ def diffusion1(circuit,quantum_reg):
     circuit.ccx(quantum_reg[1],quantum_reg[0],quantum_reg[2])
 
     #step 4
+    circuit.x(quantum_reg[2])
+
+    #step 5
     circuit.x(quantum_reg[1])
     circuit.x(quantum_reg[0])
     circuit.h(quantum_reg[1])
     circuit.h(quantum_reg[0])
 
-    #step 5
+    #step 6
     # circuit.h(quantum_reg[2])
     # circuit.x(quantum_reg[2])
-    
-    #step 6
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
 
 def diffusion2(circuit,quantum_reg):
     circuit.x(quantum_reg[4])
@@ -210,6 +207,8 @@ def diffusion2(circuit,quantum_reg):
     circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[4])
     circuit.ccx(quantum_reg[1],quantum_reg[0],quantum_reg[3])
 
+    circuit.x(quantum_reg[4])
+
     for i in range(3):
         circuit.x(quantum_reg[i])
         circuit.h(quantum_reg[i])
@@ -217,11 +216,6 @@ def diffusion2(circuit,quantum_reg):
     circuit.h(quantum_reg[4])
     circuit.x(quantum_reg[4])
     
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
-
 def diffusion3(circuit,quantum_reg):
     circuit.x(quantum_reg[6])
     circuit.h(quantum_reg[6])
@@ -236,6 +230,8 @@ def diffusion3(circuit,quantum_reg):
     circuit.ccx(quantum_reg[2],quantum_reg[3],quantum_reg[5])
     circuit.ccx(quantum_reg[0],quantum_reg[1],quantum_reg[4])
 
+    circuit.x(quantum_reg[6])
+
     for i in range(4):
         circuit.x(quantum_reg[i])
         circuit.h(quantum_reg[i])
@@ -243,11 +239,6 @@ def diffusion3(circuit,quantum_reg):
     circuit.h(quantum_reg[6])
     circuit.x(quantum_reg[6])
     
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
-    circuit.z(quantum_reg[0])
-    circuit.x(quantum_reg[0])
-
 def giant_diffusion(circuit99,quantum_reg):
     for i in range(10):
         circuit99.h(quantum_reg[i])
