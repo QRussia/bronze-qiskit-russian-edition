@@ -1,17 +1,54 @@
-1) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
-
-https://www.anaconda.com/distribution/
-
-2) Install Qiskit
-
-https://github.com/Qiskit/qiskit-tutorials/blob/master/INSTALL.md
-
->>> You might see certain errors during Qiskit installation. If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
-
-3) Download or clone our tutorial from 
+1) Download or clone our tutorial from 
 
 https://gitlab.com/qkitchen/basics-of-quantum-computing
 
-4) Execute the command "jupyter notebook" under the root directory of our tutorial (execute in the command line or write to the address bar and press enter)
 
-5) Start with the notebook "index_bronze.ipynb"
+2) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
+
+https://www.anaconda.com/distribution/
+
+
+###########################
+#####  for beginners  #####
+###########################
+
+3) Execute the command "jupyter notebook" under the root directory of our tutorial, i.e.,
+execute the command "jupyter notebook" in the command line 
+OR 
+write the command "jupyter notebook" to the address bar and press enter.
+
+You should see all files and directories under our tutorial in the opened (main) Jupyter notebook.
+
+
+4) Open a terminal from Jupyter notebook (on the right, New -> Terminal) and then Install Qiskit by executing the following command
+pip install qiskit
+OR, if you update your qiskit,
+pip install -U qiskit
+
+You might see certain errors during Qiskit installation. If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
+
+
+5) Start with the notebook "index_bronze.ipynb" from the main notebook, and test your system by using the notebooks listed under "Test your system"
+
+
+################################
+#####  for advanced users  #####
+################################
+
+3) Install Qiskit
+
+https://github.com/Qiskit/qiskit-tutorials/blob/master/INSTALL.md
+
+You might see certain errors during Qiskit installation. If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
+
+
+4) Execute the command "jupyter notebook" under the root directory of our tutorial, i.e.,
+execute the command "jupyter notebook" in the command line 
+OR 
+write the command "jupyter notebook" to the address bar and press enter.
+
+
+5) Start with the notebook "index_bronze.ipynb" from the main notebook, and test your system by using the notebooks listed under "Test your system") 
+
+
+
