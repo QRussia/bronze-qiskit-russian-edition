@@ -8,6 +8,15 @@ https://gitlab.com/qkitchen/basics-of-quantum-computing
 https://www.anaconda.com/distribution/
 
 
+----------------------------------
+         Install Qiskit
+----------------------------------
+
+Our tutorial works fine with Qiskit version 0.11.2, but there are some problems with the newer version. 
+
+If you have installed a newer version of Qiskit before, then please uninstall it:
+pip uninstall qiskit
+
 ###########################
 #####  for beginners  #####
 ###########################
@@ -21,9 +30,9 @@ You should see all files and directories under our tutorial in the opened (main)
 
 
 4) Open a terminal from Jupyter notebook (on the right, you should see: New -> Terminal) and then Install Qiskit by executing the following command
-pip install qiskit
+pip install qiskit==0.11.2
 OR, if you update your qiskit,
-pip install -U qiskit
+pip install -U qiskit==0.11.2
 
 You might see certain errors during Qiskit installation. 
 If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
@@ -36,9 +45,11 @@ If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without
 #####  for advanced users  #####
 ################################
 
-3) Install Qiskit
+3) Install Qiskit version 0.11.2
 
 https://github.com/Qiskit/qiskit-tutorials/blob/master/INSTALL.md
+
+https://pypi.org/project/qiskit/0.11.2/
 
 You might see certain errors during Qiskit installation. 
 If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
