@@ -42,3 +42,5 @@ The interested people are welcome to particpate. (Please check the README file o
 Please check "Installation.txt".
 
 ## License
+
+The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0). The code snippets in the notebooks are licensed under Apache License 2.0.
