@@ -37,8 +37,12 @@ The interested people are welcome to particpate. (Please check the README file o
 
 ## Installation
 
-Please check "Installation.txt".
+Please check "[Installation.txt](https://gitlab.com/qkitchen/basics-of-quantum-computing/blob/master/Installation.txt)".
 
 ## License
 
 The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0). The code snippets in the notebooks are licensed under Apache License 2.0.
+
+
+
+
