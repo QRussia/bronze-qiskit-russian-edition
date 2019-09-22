@@ -1,5 +1,3 @@
-### _There is an ongoing update in the repo until September 22, 2019!_
-
 Our introductory material to introduce the basics of quantum computation and quantum programming. 
 
 We plan to have three set of materials here: **Bronze**, **Silver**, and **Gold**. 
@@ -22,7 +20,7 @@ Dr. Maksims Dimitrijevs ([QLatvia](https://qsoftware.lu.lv)) and Dr. Özlem Sale
 (Please check the notebook "Credits" for the other contributors.)
 Starting from July 7, 2019, Bronze has been on a public gitlab repository and it is expected to have contributions from public as well.
 
-By September 2019, Bronze and its different versions have been used in more than 20 two-way or three day long workshops:
+By September 2019, Bronze and its different versions have been used in more than 20 two-day or three-day long workshops:
 
 [Workshops by QLatvia](https://qsoftware.lu.lv/index.php/workshops/) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [Workshops by QTurkey](https://www.qturkey.org/events-meetings) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
