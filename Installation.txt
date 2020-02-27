@@ -1,67 +1,31 @@
-1) Download or clone our tutorial from 
 
-https://gitlab.com/qkitchen/basics-of-quantum-computing
+>>> You can use  #general channel under QWorld's slack workspace (https://qworldworkspace.slack.com/) to ask your questions
 
-
-2) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
+1) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
 
 https://www.anaconda.com/distribution/
 
+2) Run "Jupyter notebook" from the start menu or execute command "jupyter notebook" on the terminal
 
-----------------------------------
-         Install Qiskit
-----------------------------------
+The home page for the notebook will be opened on your browser, which is also called the dashboard. 
 
-Our tutorial works fine with Qiskit version 0.13.0. There might be some problems with the other versions. 
+On the dashboard, the notebooks and files in the current directory are displayed, the running notebooks can be seen and shut down, a new terminal can be opened, etc.
 
-Uninstall qiskit by using pip:
-pip uninstall qiskit
+3) Download or clone our tutorial from 
 
-###########################
-#####  for beginners  #####
-###########################
+https://gitlab.com/qkitchen/basics-of-quantum-computing
 
-3) Execute the command "jupyter notebook" under the root directory of our tutorial, i.e.,
-execute the command "jupyter notebook" in the command line 
-OR 
-write the command "jupyter notebook" to the address bar and press enter.
+Extract/clone our tutorial under a directory accessible from the dashboard, and then go to the root directory of our tutorial from the dashboard. 
 
-You should see all files and directories under our tutorial in the opened (main) Jupyter notebook.
+If "Jupyter notebook" can be lunched from the terminal, then you can also execute command "jupyter notebook" from the terminal when in the root directory of our tutorial.
+
+4) Open "index_bronze.ipynb" from the dashboard by clicking on it.
+
+5) Complete the instructions under the section "Installation and Test" on "index_bronze.ipynb".
 
 
-4) Open a terminal from Jupyter notebook (on the right, you should see: New -> Terminal) and then Install Qiskit by executing the following command
-pip install qiskit==0.13.0
-OR, if you update your qiskit,
-pip install -U qiskit==0.13.0
-
-You might see certain errors during Qiskit installation. 
-If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
 
 
-5) Start with the notebook "index_bronze.ipynb" from the main notebook, and test your system by using the notebooks listed under "Test your system".
-
-
-################################
-#####  for advanced users  #####
-################################
-
-3) Install Qiskit version 0.13.0
-
-https://github.com/Qiskit/qiskit-tutorials/blob/master/INSTALL.md
-
-https://pypi.org/project/qiskit/0.13.0/
-
-You might see certain errors during Qiskit installation. 
-If the test notebook ("Hello_from_quantum_world.ipynb") will be executed without any problem, then there is no need to worry about these errors.
-
-
-4) Execute the command "jupyter notebook" under the root directory of our tutorial, i.e.,
-execute the command "jupyter notebook" in the command line 
-OR 
-write the command "jupyter notebook" to the address bar and press enter.
-
-
-5) Start with the notebook "index_bronze.ipynb" from the main notebook, and test your system by using the notebooks listed under "Test your system") 
 
 
 
