@@ -2,15 +2,15 @@ import random, math
 
 # randomly create a 2-dimensional quantum state
 def random_quantum_state():
-	first_entry = random.randrange(101)
-	first_entry = first_entry/100
-	first_entry = first_entry**0.5 
-	if random.randrange(2) == 0: 
-		first_entry = -1 * first_entry
-	second_entry = 1 - (first_entry**2)
-	second_entry = second_entry**0.5
-	if random.randrange(2) == 0: 
-		second_entry = -1 * second_entry
+	first_entry = random.randrange(-100,101)
+	second_entry = random.randrange(-100,101)
+	length_square = first_entry**2+second_entry**2
+	while length_square == 0:
+		first_entry = random.randrange(-100,101)
+		second_entry = random.randrange(-100,101)
+	length_square = first_entry**2+second_entry**2
+	first_entry = first_entry / length_square**0.5
+	second_entry = second_entry / length_square**0.5
 	return [first_entry,second_entry]
 	
 # randomly create a 2-dimensional quantum state	
