@@ -1,0 +1,7 @@
+<table> <tr>
+        <td  style="background-color:#ffffff;">
+            <a href="http://qworld.lu.lv" target="_blank"><img src="..\images\qworld.jpg" width="25%" align="left"> </a></td>
+        <td style="background-color:#ffffff;vertical-align:bottom;text-align:right;">
+            prepared by <a href="http://abu.lu.lv" target="_blank">Abuzer Yakaryilmaz</a> (<a href="http://qworld.lu.lv/index.php/qlatvia/" target="_blank">QLatvia</a>)
+        </td>        
+</tr></table>
