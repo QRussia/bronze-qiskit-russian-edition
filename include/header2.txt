@@ -20,6 +20,7 @@ $ \newcommand{\stateplus}{\myvector{ \sqrttwo \\  \sqrttwo } } $
 $ \newcommand{\stateminus}{ \myrvector{ \sqrttwo \\ -\sqrttwo } } $
 $ \newcommand{\myarray}[2]{ \begin{array}{#1}#2\end{array}} $
 $ \newcommand{\X}{ \mymatrix{cc}{0 & 1 \\ 1 & 0}  } $
+$ \newcommand{\I}{ \mymatrix{rr}{1 & 0 \\ 0 & 1}  } $
 $ \newcommand{\Z}{ \mymatrix{rr}{1 & 0 \\ 0 & -1}  } $
 $ \newcommand{\Htwo}{ \mymatrix{rrrr}{ \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} & \frac{1}{2} & -\frac{1}{2} \\ \frac{1}{2} & \frac{1}{2} & -\frac{1}{2} & -\frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} & -\frac{1}{2} & \frac{1}{2} } } $
 $ \newcommand{\CNOT}{ \mymatrix{cccc}{1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0} } $
