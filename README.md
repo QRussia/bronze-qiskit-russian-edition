@@ -6,7 +6,7 @@ We plan to have three set of materials here: **Bronze**, **Silver**, and **Gold*
 
 Bronze is ready to use and it is being updated time to time.
 
-Bronze is a collection of [Jupyter notebooks](https://jupyter.org/) (nearly 80 notebooks) using python as the programming language and [qiskit library](https://qiskit.org) for writing quantum programs.
+Bronze is a collection of [Jupyter notebooks](https://jupyter.org/) (nearly 80 notebooks) using python as the programming language and [qiskit library](https://qiskit.org) for writing quantum programs. New quantum libraries will be added by the edn of April 2020.
 
 _In Bronze, we focus on real numbers and skip to use complex numbers to keep the tutorial simpler._
 
@@ -19,17 +19,17 @@ Dr. Maksims Dimitrijevs ([QLatvia](https://qsoftware.lu.lv)) and Dr. Özlem Sale
 (Please check the notebook "Credits" for the other contributors.)
 Starting from July 7, 2019, Bronze has been on a public gitlab repository and it is expected to have contributions from public as well.
 
-By November 2019, Bronze and its different versions have been used in 24 two-day or three-day long workshops:
+By March 8, 2020, Bronze and its different versions have been used in 30 two-day or three-day long workshops:
 
 [The updated list of Workshop/Bronze](http://qworld.lu.lv/index.php/workshop-bronze/#list)
 
 ## Silver & Gold
 
-Silver is expected to be available by January 2019. 
+Silver is expected to be available by May 2019. 
 
 We use [QPool2019](https://gitlab.com/qkitchen/qpool2019) for preparing our materials.
 
-The interested people are welcome to particpate. (Please check the README file of QPool2019.)
+The interested people are welcome to participate. (Please check the README file of QPool2019.)
 
 ## Installation
 
