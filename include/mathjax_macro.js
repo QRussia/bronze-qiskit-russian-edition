@@ -26,9 +26,12 @@ wrt("\\newcommand{\\donehalf}{\\dfrac{1}{2}} ");
 wrt("\\newcommand{\\hadamard}{ \\mymatrix{rr}{ \\sqrttwo & \\sqrttwo \\\\ \\sqrttwo & -\\sqrttwo }} ");
 wrt("\\newcommand{\\vzero}{\\myvector{1\\\\0}} ");
 wrt("\\newcommand{\\vone}{\\myvector{0\\\\1}} ");
-wrt("\\newcommand{\\vhadamardzero}{\\myvector{ \\sqrttwo \\\\  \\sqrttwo } } ");
-wrt("\\newcommand{\\vhadamardone}{ \\myrvector{ \\sqrttwo \\\\ -\\sqrttwo } } ");
+wrt("\\newcommand{\\stateplus}{\\myvector{ \\sqrttwo \\\\  \\sqrttwo } } ");
+wrt("\\newcommand{\\stateminus}{ \\myrvector{ \\sqrttwo \\\\ -\\sqrttwo } } ");
+wrt("\\newcommand{\\stateplusket}{ \\sqrttwo \\ket{0} +  \\sqrttwo \\ket{1} } ");
+wrt("\\newcommand{\\stateminusket}{ \\sqrttwo \\ket{0} -  \\sqrttwo \\ket{1} } ");
 wrt("\\newcommand{\\myarray}[2]{ \\begin{array}{#1}#2\\end{array}} ");
+wrt("\\newcommand{\\I}{ \\mymatrix{rr}{1 & 0 \\\\ 0 & 1}  } ");
 wrt("\\newcommand{\\X}{ \\mymatrix{cc}{0 & 1 \\\\ 1 & 0}  } ");
 wrt("\\newcommand{\\Z}{ \\mymatrix{rr}{1 & 0 \\\\ 0 & -1}  } ");
 wrt("\\newcommand{\\Htwo}{ \\mymatrix{rrrr}{ \\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2} \\\\ \\frac{1}{2} & -\\frac{1}{2} & \\frac{1}{2} & -\\frac{1}{2} \\\\ \\frac{1}{2} & \\frac{1}{2} & -\\frac{1}{2} & -\\frac{1}{2} \\\\ \\frac{1}{2} & -\\frac{1}{2} & -\\frac{1}{2} & \\frac{1}{2} } } ");
@@ -39,9 +42,43 @@ wrt("\\newcommand{\\faircoin}{ \\mymatrix{rr}{ \\onehalf & \\onehalf \\\\ \\oneh
 wrt("$");
 
 
+function qworld_header(title_str) {
+	wrt("<title>Exercises for "+title_str+"</title>");
+	wrt(`
+		<style> hr{border: 0.5px solid grey;} body{font-family:verdana;} h2{color:#0000aa;}</style>
+		<table style="font-family:monospace;" width="100%"><tr> 
+			<td  style="text-align:left;">
+				<a href="http://qworld.lu.lv" target="_blank"><img src="../images/qworld.jpg" width="30%" align="left"> </a> </td>
+			<td>&nbsp;</td>
+			<td style="vertical-align:text-middle;text-align:right;">
+				<table><tr>
+					<td> Visit</td>
+					<td><a href="http://qworld.lu.lv" target="_blank"><img src="../images/web-logo.png" width="35px"></a></td>
+					<td width="30pt"></td>
+					<td> Join</td>
+					<td><a href="https://qworldworkspace.slack.com/" target="_blank"><img src="../images/slack-icon.png" width="80px"></a></td>
+					<td width="30pt"></td>
+					<td>Follow</td>
+					<td><a href="https://www.facebook.com/qworld19/" target="_blank"><img src="../images/facebook-icon.png" width="40px"></a></td>
+					<td><a href="https://twitter.com/QWorld19" target="_blank"><img src="../images/twitter-icon.png" width="40px"></a></td>
+				</tr></table>
+			</td>     
+		</tr></table>`
+	);
+	wrt("<hr>");
+	wrt("<center><font size='-1' style='color:#0000bb'><i>(This pages uses <a href='https://www.mathjax.org/' target='_blank'>MathJax</a> to express mathematical expressions <u>requiring internet connection</u>.)</i></font></center>");
+	wrt("<h2 align='center'>Exercises for "+title_str+"</h2>");
+}
+
+
 var counter = 0; 
 var user_answers = [];
+var option_tags = ['a','b','c','d','e'];
+var option_counter = 0;
 
+function print_br() {
+	wrt("<br>");
+}
 function gid(pid) {
 	return document.getElementById(pid);
 }
@@ -52,17 +89,20 @@ function gname(pname) {
 function start_div() {
 	counter++;
 	wrt("<div id='div"+counter+"' >"+counter+".");
+	option_counter = 0;
 }
 function end_div() {
 	wrt("</div>");
 	wrt("<hr>");		
 }
 function print_answer(t_or_f,answer) {
-	wrt("&nbsp;&nbsp;&nbsp;&nbsp;<input type='radio' name='radio"+counter+"' value='"+t_or_f+"'>"+answer)
+	wrt("&nbsp;&nbsp;&nbsp;&nbsp;");
+	wrt("<input type='radio' name='radio"+counter+"' value='"+t_or_f+"'>");
+	wrt("<b>"+option_tags[option_counter]+")</b> ");
+	wrt(answer);
+	option_counter++;
 }
-function print_br() {
-	wrt("<br>");
-}
+
 
 
 function print_check_now() {
