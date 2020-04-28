@@ -1,3 +1,5 @@
+# QWorld's Basics of Quantum Computing
+
 Our introductory material to introduce the basics of quantum computation and quantum programming. 
 
 We plan to have three set of materials here: **Bronze**, **Silver**, and **Gold**. 
@@ -25,7 +27,7 @@ By March 8, 2020, Bronze and its different versions have been used in 30 two-day
 
 ## Silver & Gold
 
-Silver is expected to be available by May 2019. 
+Silver is expected to be available by Summer 2020. 
 
 We use [QPool2019](https://gitlab.com/qkitchen/qpool2019) for preparing our materials.
 
