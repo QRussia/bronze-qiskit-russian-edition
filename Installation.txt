@@ -1,5 +1,5 @@
 
->>> You can use  #general channel under QWorld's slack workspace (https://qworldworkspace.slack.com/) to ask your questions
+>>> You can use  #general channel under QWorld's slack workspace (https://cutt.ly/jy3LiLD) to ask your questions
 
 1) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
 
