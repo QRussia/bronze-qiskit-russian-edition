@@ -1,3 +1,4 @@
+(updated on August 3, 2020)
 
 >>> You can use  #general channel under QWorld's slack workspace (https://cutt.ly/jy3LiLD) to ask your questions
 
@@ -5,13 +6,19 @@
 
 https://www.anaconda.com/distribution/
 
-2) Run "Jupyter notebook" from the start menu or execute command "jupyter notebook" on the terminal
+2) If "Jupyter notebook" is not installed in your system (i.e., check the Anaconda3 directory in the start menu), then install it by using one of the following the commands:
+
+pip install notebook
+
+conda install -c conda-forge notebook
+
+3) Run "Jupyter notebook" from the start menu or execute command "jupyter notebook" on the terminal.
 
 The home page for the notebook will be opened on your browser, which is also called the dashboard. 
 
 On the dashboard, the notebooks and files in the current directory are displayed, the running notebooks can be seen and shut down, a new terminal can be opened, etc.
 
-3) Download or clone our tutorial from 
+4) Download or clone our tutorial from 
 
 https://gitlab.com/qkitchen/basics-of-quantum-computing
 
@@ -19,9 +26,9 @@ Extract/clone our tutorial under a directory accessible from the dashboard, and 
 
 If "Jupyter notebook" can be lunched from the terminal, then you can also execute command "jupyter notebook" from the terminal when in the root directory of our tutorial.
 
-4) Open "index_bronze.ipynb" from the dashboard by clicking on it.
+5) Open "welcome.ipynb" from the dashboard by clicking on it and then "content.ipynb".
 
-5) Complete the instructions under the section "Installation and Test" on "index_bronze.ipynb".
+6) Complete the instructions under the section "Installation and Test" on "content.ipynb".
 
 
 
