@@ -45,3 +45,25 @@ def draw_qubit():
 	# drawing -|1>
 	matplotlib.pyplot.plot(0,-1,"o")
 	matplotlib.pyplot.text(-0.2,-1.1,"-|1>")
+
+def draw_qubit_grover():
+	# draw a figure
+	matplotlib.pyplot.figure(figsize=(7,7), dpi=60)
+	# draw the origin
+	matplotlib.pyplot.plot(0,0,'ro') # a point in red color
+	# drawing the axes by using one of our predefined function
+	draw_axes()
+	# drawing the unit circle by using one of our predefined function
+	draw_unit_circle()
+	# drawing |0>
+	matplotlib.pyplot.plot(1,0,"o")
+	matplotlib.pyplot.text(1.05,0.05,"|unmarked>")
+	# drawing |1>
+	matplotlib.pyplot.plot(0,1,"o")
+	matplotlib.pyplot.text(0.05,1.05,"|marked>")
+	# drawing -|0>
+	matplotlib.pyplot.plot(-1,0,"o")
+	matplotlib.pyplot.text(-0.98,-0.09,"-|unmarked>")
+	# drawing -|1>
+	matplotlib.pyplot.plot(0,-1,"o")
+	matplotlib.pyplot.text(-0.4,-1.1,"-|marked>")
