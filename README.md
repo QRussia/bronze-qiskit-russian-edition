@@ -13,7 +13,7 @@ Bronze is a collection of [Jupyter notebooks](https://jupyter.org/) (nearly 80 n
 _In Bronze, we focus on real numbers and skip to use complex numbers to keep the tutorial simpler._
 
 Bronze can be used to organize 3-day long workshops or to design a 2-credit course for the second or third year university students 
-by assuming that the participants/students would revise the noteboos for python and math by themselves. 
+by assuming that the participants/students would revise the notebooks for python and math by themselves. 
 
 Bronze was created by [Dr. Abuzer Yakaryilmaz](http://abu.lu.lv) ([QLatvia](http://qworld.lu.lv/index.php/qlatvia/)) in October 2018, 
 and the most part of it had been developed by him. 
