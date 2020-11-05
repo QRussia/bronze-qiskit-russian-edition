@@ -1,10 +1,10 @@
-(updated on August 3, 2020)
+(updated on November 5, 2020)
 
 >>> You can use  #general channel under QWorld's slack workspace (https://cutt.ly/jy3LiLD) to ask your questions
 
-1) Install Anaconda (Jupyter notebooks and many libraries will be automatically installed)
+1) Install Anaconda with version Python 3.8 or later (Jupyter notebooks and many libraries will be automatically installed, Qiskit requires Python 3.6+)
 
-https://www.anaconda.com/distribution/
+https://www.anaconda.com/products/individual#Downloads
 
 2) If "Jupyter notebook" is not installed in your system (i.e., check the Anaconda3 directory in the start menu), then install it by using one of the following the commands:
 
