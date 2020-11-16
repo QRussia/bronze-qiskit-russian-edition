@@ -6,7 +6,7 @@ We plan to have three set of materials here: **Bronze**, **Silver**, and **Gold*
 
 ## Bronze
 
-Bronze has been used in more than 40 workshops until now and it is being updated time to time. [The updated list of QBronze](http://qworld.lu.lv/index.php/workshop-bronze/#list)
+Bronze has been used in more than 40 workshops until now ([The updated list of QBronze](http://qworld.lu.lv/index.php/workshop-bronze/#list)) and it is being updated time to time. 
 
 Bronze is a collection of [Jupyter notebooks](https://jupyter.org/) (nearly 80 notebooks) using python as the programming language and [Qiskit library](https://qiskit.org) for writing quantum programs. New quantum libraries will be added.
 
@@ -29,7 +29,8 @@ The first draft of Silver is ready. QSilver workshops will start in 2021.
 
 ## Installation
 
-After getting a copy of this repo, read "installation.html" file.
+After getting a copy of this repo, read "installation.html" file. 
+
 
 ## License
 
