@@ -2,11 +2,13 @@
 
 <h1> Installation </h1>
 
+<i><font size="-1">(updated on November 18, 2020)</font></i>
+<br><br>
 Bronze is a collection of <b>jupyter notebooks</b>. 
 <br><br>
 We use <b>pyhton (3.6+)</b> as our programming language and <b>Qiskit library</b> to write our quantum programs. 
 <br><br>
-<u><font size="+1">The instructions here are for beginners.</font></u>
+<i><font size="+1">The instructions here are for beginners.</font></i>
 <br><br>
 <i> If you have qiskit installed, you may skip the instructions here.</li>
 <br><br>
@@ -15,92 +17,58 @@ If you have Jupyter notebooks installed, you can install Qiskit library <a href=
 
 <h2> Install Anaconda</h2>
 
-The easiest way to install jupyter notebooks and many python libraries is to install anaconda.
-<br><br>
-<a href="https://www.anaconda.com/products/individual#Downloads" target="_blank">Download anaconda</a>
-<br><br>
-<img src="images/anaconda-download.png" width="600px" border="1">
-<br><br>
-We downloaded and installed the version for Windows (64-bit)
-<br><br>
-<img src="images/anaconda-install1.png" width="300px" border="1">
-<img src="images/anaconda-install2.png" width="300px" border="1">
-<img src="images/anaconda-install3.png" width="305px" border="1">
-<br><br>
+<ol>
+	<li> The easiest way to install jupyter notebooks and many python libraries is to install anaconda. <br><br>
+		<a href="https://www.anaconda.com/products/individual#Downloads" target="_blank">Download anaconda</a> <br><br>
+		<img src="images/anaconda-download.png" width="600px" border="1"><br><br>
+	<li>We downloaded and installed the version for Windows (64-bit). <br><br>
+		<img src="images/anaconda-install1.png" width="300px" border="1">
+		<img src="images/anaconda-install2.png" width="300px" border="1">
+		<img src="images/anaconda-install3.png" width="305px" border="1"><br><br>
+</ol>
 
 <h2> Jupyter Notebooks</h2>
 
-After installing Anaconda, execute Jupyter Notebooks from start menu. Then, the dashboard of Jupyter notebooks should be opened on the browser.
-<br><br>
-<i>We suggest you to keep open the dashboard all the time!</i>
-<br><br>
-<img src="images/jupyter1.png" width="220px" border="1">
-<img src="images/jupyter2.png" width="550px" border="1">
-<br><br>
-The notebooks you will work with should be accesible from the dashboard, e.g., put them under a sub-directory of Desktop, Documents, Downloads, etc.
-<br><br>
-In the following example, we downloaded our zip file under "Desktop/Bronze" and then extract the files there.
-<br><br>
-<i>Always extract the zip files before accessing from jupyter notebooks!</i>
-<br><br>
-<img src="images/folder.png" width="500px" border="1">
-<br><br>
+<ol>
+	<li> After installing Anaconda, execute Jupyter Notebooks from start menu. Then, the dashboard of Jupyter notebooks should be opened on the browser. <br><br>
+		<i>We suggest you to keep open the dashboard all the time!</i><br><br>
+		<img src="images/anaconda-jupyter1.png" width="220px" border="1">
+		<img src="images/anaconda-jupyter2.png" width="550px" border="1"> <br><br>
+	<li> The notebooks you will work with should be accesible from the dashboard, e.g., put them under a sub-directory of Desktop, Documents, Downloads, etc. <br><br>
+		In the following example, we downloaded our zip file under "Desktop/Bronze" and then extract the files there.
+		<br><br>
+		<i>Always extract the zip files before accessing from jupyter notebooks!</i><br><br>
+		<img src="images/anaconda-folder.png" width="500px" border="1"> <br><br>
 
 <h2>Install Qiskit</h2>
 
-Click the notebook "before-workshop.ipynb". 
-<br><br>
-<img src="images/before-workshop.png" width="700px" border="1">
-<br><br>
-Click on "Qiskit installation and test".
-<br><br>
-<img src="images/qiskit1.png" width="700px" border="1">
-<br><br>
-If you execute the first cell and Qiskit is not installed on your system, then you will get an error.
-<br><br>
-<img src="images/qiskit2.png" width="700px" border="1">
-<br><br>
-To install Qiskit, run the cell shown below.
-<br><br>
-<img src="images/qiskit3.png" width="700px" border="1">
-<br><br>
-We did not recieve any error during the installation.
-<br><br>
-<img src="images/qiskit4.png" width="700px" border="1">
-<br><br>
-Restart the kernel before using Qiskit.
-<br><br>
-<img src="images/kernel1.png" width="350px" border="1">
-<img src="images/kernel2.png" width="480px" border="1">
-<br><br>
+<ol>
+	<li> Open the notebook "before-workshop.ipynb" from the dashboard. <br><br>
+		<img src="images/qiskit-before-workshop.png" width="700px" border="1"> <br><br>
+	<li> Open "Qiskit installation and test". <br><br>
+		<img src="images/qiskit-install0.png" width="700px" border="1"> <br><br>
+	<li> When you execute the first cell, you should get an error if Qiskit is not installed on your system. <br><br>
+		<img src="images/qiskit-install1.png" width="700px" border="1"> <br><br>
+	<li> To install Qiskit, run the cell shown below. <br><br>
+		<img src="images/qiskit-install2.png" width="700px" border="1"> <br><br>
+	<li> We did not recieve any error during the installation. <br><br>
+		<img src="images/qiskit-install3.png" width="700px" border="1"> <br><br>
+	<li> The next step is to restart to kernel. (Otherwise, the changes in the system will not be reflected immedeately.) <br><br>
+		<img src="images/qiskit-install4.png" width="350px" border="1"> <img src="images/qiskit-install5.png" width="465px" border="1"> <br><br>
+</ol>
+
 
 <h2>Test</h2>
+It is time to test the system.
+<ol>
+	<li> Run the cell shown below to create a quantum circuit with two entangled quantum bits. <br><br>
+		<img src="images/qiskit-test1.png" width="700px" border="1"><br><br>
+	<li> Run the next two cells to draw the circuit and to execute the circuit on local simulator 1024 times.<br><br>
+		<img src="images/qiskit-test2.png" width="700px" border="1"><br><br>
+</ol>
+<br><br>
 
-It is time to test the system. Execute the cell shown below to create two entangled quantum bits.
-<br><br>
-<img src="images/test1.png" width="700px" border="1">
-<br><br>
-The second step is draw the circuit by executing the next cell. In our case, we got an error of a missing library. 
-<br><br>
-<img src="images/test2.png" width="700px" border="1">
-<br><br>
-So, we inserted a new cell (by using the menu) and then install the missing library.
-<br><br>
-<i>Do not forget to use "!" before the command.</i>
-<br><br>
-<img src="images/test3.png" width="700px" border="1">
-<br><br>
-Then, we restarted the kernel and re-run the cell to draw the circuit.
-<br><br>
-<img src="images/test4.png" width="700px" border="1">
-<br><br>
-The last step is execute the circuit.
-<br><br>
-<img src="images/test5.png" width="700px" border="1">
-<br><br><br><br>
-
-<font size="+1">The installation is completed. Enjoy Bronze :)</font>
-
+<i><font size="+1">The installation is completed. Enjoy Bronze :)</font></i>
 
 
 
