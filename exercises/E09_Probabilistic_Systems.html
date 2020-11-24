@@ -226,7 +226,7 @@ We apply a controlled-NOT operator on two probabilistic bit where the second one
 <script> start_div();  </script>
 We have a composite system with two probabilistic bits. 
 <ul>
-	<li>First, both bits are set to the state 0.</li>
+	<li>First, each bit is set to the state 0.</li>
 	<li>Second, the fair coin operator $ \faircoin $ is applied to the first bit, and the NOT operator $ \X $ is applied to the second bit.</li>
 	<li>Third, the CNOT operator $ \CNOT $ is applied to the composite system.</li>
 </ul>
@@ -237,7 +237,7 @@ What is the final probabilistic state of the composite system?
 	print_answer(0,"$ \\donehalf \\pstate{00} + \\donehalf \\pstate{11} $");
 	print_answer(0,"$ \\donehalf \\pstate{01} + \\donehalf \\pstate{11} $");
 	print_answer(0,"$ \\donehalf \\pstate{00} + \\donehalf \\pstate{01} $");
-	print_answer(0,"$ \\donehalf \\pstate{10} + \\donehalf \\pstate{01} $");
+	print_answer(0,"$ \\donehalf \\pstate{00} + \\donehalf \\pstate{10} $");
 	print_check_now();
 	end_div();
 </script>
@@ -246,7 +246,7 @@ What is the final probabilistic state of the composite system?
 <script> start_div();  </script>
 We have a composite system with three probabilistic bits. 
 <ul>
-	<li>First, all bits are set to the state 0. </li>
+	<li>First, each bit is set to the state 0. </li>
 	<li>Second, the fair coin operator $ \faircoin $ is applied to the second bit, and the NOT operator $ \X $ is applied to the first bit. </li>
 	<li>Third, the CNOT operator is applied on the second and the third bits where the second bit is the controlled bit and the third bit is the target bit. </li>
 	<li>
