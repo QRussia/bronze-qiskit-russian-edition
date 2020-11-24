@@ -141,13 +141,13 @@ If we observe the state $ 0 $ at the end, which of the following combinations is
 <br>
 
 <script> start_div();  </script>
-We have five qubits, say $ q_0,\ldots,q_4 $. We apply $X$ operator to $ q_0 $ and $ q_4 $. For the rest of qubits, we apply either identity operator or $ X $ operator. After making a measurement, we read the values from the qubits $ q_0,\ldots,q_4 $ as $ b_0,\ldots,b_4 $, respectively. 
+We have five qubits, say $ q_0,\ldots,q_4 $ initially in zero states. We apply $X$ operator to $ q_0 $ and $ q_4 $. For the rest of qubits, we apply either identity operator or $ X $ operator. After making a measurement, we read the values from the qubits $ q_0,\ldots,q_4 $ as $ b_0,\ldots,b_4 $, respectively. 
 <br><br>
-If $ b = b_4 \cdots b_1 $ is a binary number, which of the following decimal numbers cannot be a value of $ b $? 
+If $ b = b_4 \cdots b_0 $ is a binary number, which of the following decimal numbers cannot be a value of $ b $? 
 <br><br>
 <script> 
 	print_answer(1,"$ 13 $");
-	print_answer(0,"$ 20 $");
+	print_answer(0,"$ 17 $");
 	print_answer(0,"$ 23 $");
 	print_answer(0,"$ 25 $");
 	print_answer(0,"$ 31 $");
