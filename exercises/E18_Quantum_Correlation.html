@@ -263,14 +263,16 @@ We have a composite system with two qubits $ q_1 $ and $ q_0 $. In which one of 
 
 
 <script> start_div();  </script>
-We have a composite system with two qubits $ q_1 $ and $ q_0 $ that is in state $ \ket{00} $. After applying which one of the following operators the system will be in state $ \frac{1}{2} \mypar{ \ket{00} - \ket{01} -\ket{10} - \ket{11} } $ ?
+We have a composite system with two qubits $ q_1 $ and $ q_0 $ tensored as $ q_1 \otimes q0 $, which is in state $ \ket{00} $. 
+<br><br>
+After applying which one of the following operators the system will be in state $ \frac{1}{2} \mypar{ \ket{00} - \ket{01} -\ket{10} - \ket{11} } $ ?
 <br><br>
 <script> 
 	print_answer(0,"$ H(q_1),CNOT(q_1,q_0), H(q_1), Z(q_0) $"); print_br();
 	print_answer(1,"$ H(q_1), X(q_0), CNOT(q_1,q_0), H(q_1), Z(q_0) $"); print_br();
 	print_answer(0,"$ H(q_1),CNOT(q_0,q_1), H(q_1), Z(q_0) $"); print_br();
 	print_answer(0,"$ H(q_1), X(q_0), CNOT(q_1,q_0), H(q_1) $"); print_br();
-	print_answer(0,"$ H(q_1), X(q_0), CNOT(q_1,q_0), H(q_1), Z(q_0) $");
+	print_answer(0,"$ H(q_1), X(q_0), CNOT(q_0,q_1), H(q_1), Z(q_0) $");
 	print_check_now();
 	end_div();
 </script>
