@@ -33,7 +33,7 @@ After getting a copy of this repo to your local, read "installation.html" file.
 _Alternative by using Binder: You may [launch Bronze in the cloud with binder](https://mybinder.org/v2/gl/qkitchen%2Fbasics-of-quantum-computing/HEAD?urlpath=lab/tree/welcome.ipynb) but please be aware of that_ 
 - _each time a new session is created, which takes some time to be initiated, and all changes are lost when ending the session; and,_
 - _at most 100 simultaneus sessions are allowed for the same repository._
-![Binder](https://mybinder.org/badge_logo.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/qkitchen%2Fbasics-of-quantum-computing/HEAD?urlpath=lab/tree/welcome.ipynb)
 
 ## License
 
