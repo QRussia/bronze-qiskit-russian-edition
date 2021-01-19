@@ -30,6 +30,7 @@ The first draft of Silver is ready. QSilver workshops will start in 2021.
 
 After getting a copy of this repo, read "installation.html" file. 
 
+Or alternatively [launch the course in the cloud with binder](https://mybinder.org/v2/gl/qkitchen%2Fbasics-of-quantum-computing/HEAD?urlpath=lab/tree/welcome.ipynb) (warning: your changes won't be saved) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/qkitchen%2Fbasics-of-quantum-computing/HEAD?urlpath=lab/tree/welcome.ipynb)
 
 ## License
 
