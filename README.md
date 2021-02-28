@@ -70,21 +70,25 @@ Bronze was publicaly available on July 7, 2019.
 
 Bronze-Qiskit was released by Abuzer Yakaryilmaz in February 2021.
 
-#### Video lectures
+**Video lectures**
 
 The first recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia).
 
-#### Bronze 2020 & 2021
+**Bronze-Qiskit 2021**
+
+Agnieszka Wolska prepared the new graphics and logos.
+
+**Bronze 2020 & 2021**
 
 We thank to the participants of QBronze workshops and [QTraining for Bronze program](https://qworld.net/qtraining-for-bronze-2020/) for their corrections and suggestions.
 
-#### Bronze 2019
+**Bronze 2019**
 
 We thank to the mentors and participants of [QDrive](https://qworld.net/qdrive/) for their very helpful corrections and suggestions.
 
 We thank Adam Glos (QWorld & QPoland) for his comments on Bronze 2018.
 
-#### Bronze 2018
+**Bronze 2018**
 
 We thank to Katrina Kizenbaha from Riga TechGirls for her revisions on our notebooks on python.
 
