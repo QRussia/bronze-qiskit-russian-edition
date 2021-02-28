@@ -1,4 +1,4 @@
-# LICENSE for _QWorld's Basics of Quantum Computing_
+# LICENSE for bronze-qiskit
 
 
 ## TEXT
