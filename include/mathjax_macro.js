@@ -46,24 +46,8 @@ function qworld_header(title_str) {
 	wrt("<title>Exercises for "+title_str+"</title>");
 	wrt(`
 		<style> hr{border: 0.5px solid grey;} body{font-family:verdana;} h2{color:#0000aa;}</style>
-		<table style="font-family:monospace;" width="100%"><tr> 
-			<td  style="text-align:left;">
-				<a href="http://qworld.lu.lv" target="_blank"><img src="../images/qworld.jpg" width="30%" align="left"> </a> </td>
-			<td>&nbsp;</td>
-			<td style="vertical-align:text-middle;text-align:right;">
-				<table><tr>
-					<td> Visit</td>
-					<td><a href="http://qworld.lu.lv" target="_blank"><img src="../images/web-logo.png" width="35px"></a></td>
-					<td width="30pt"></td>
-					<td> Join</td>
-					<td><a href="https://qworldworkspace.slack.com/" target="_blank"><img src="../images/slack-icon.png" width="80px"></a></td>
-					<td width="30pt"></td>
-					<td>Follow</td>
-					<td><a href="https://www.facebook.com/qworld19/" target="_blank"><img src="../images/facebook-icon.png" width="40px"></a></td>
-					<td><a href="https://twitter.com/QWorld19" target="_blank"><img src="../images/twitter-icon.png" width="40px"></a></td>
-				</tr></table>
-			</td>     
-		</tr></table>`
+		<table align="center"><tr><td><a href="https://qworld.net" target="_blank" align="left"><img src="../qworld/images/header.jpg"  align="left"></a></td></tr></table>
+		`
 	);
 	wrt("<hr>");
 	wrt("<center><font size='-1' style='color:#0000bb'><i>(This pages uses <a href='https://www.mathjax.org/' target='_blank'>MathJax</a> to express mathematical expressions <u>requiring internet connection</u>.)</i></font></center>");
