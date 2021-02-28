@@ -1,4 +1,4 @@
-name: basics-of-quantum-computing
+name: bronze-qiskit
 channels:
   - defaults
 dependencies:
