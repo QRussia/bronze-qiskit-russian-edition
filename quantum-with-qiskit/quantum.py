@@ -3,4 +3,6 @@ sys.path.insert(0, '../include')
 
 from drawing import draw_axes, draw_unit_circle, draw_quantum_state, draw_qubit, draw_qubit_grover
 
-from quantum import random_quantum_state, random_quantum_state2, angle_quantum_state
+from quantum_state import random_qstate_by_value, random_qstate_by_angle, angle_qstate
+
+from grover import giant_oracle, giant_oracle2, giant_diffusion, Uf, Uf_8
