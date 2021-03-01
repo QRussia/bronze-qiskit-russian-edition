@@ -1,6 +1,6 @@
 ![](qworld/images/readme-logo.jpg)
 
-### [QWorld](https://qworld.net)'s Bronze-Qiskit
+## [QWorld](https://qworld.net)'s Bronze-Qiskit
 
 **Bronze** is our introductory tutorial on _**quantum computing and quantum programming**_ created in October 2018.
 
@@ -8,27 +8,27 @@
 
 Bronze is a collection of Jupyter notebooks, and each notebook has many programming tasks to provide hands-on experiences. We see Bronze as a laboratory where you can learn the basics of quantum computing and quantum programming by doing. Bronze has already been used in more than 50 workshops ([the most recent list](http://qworld.net/workshop-bronze/#list)) under QWorld. As a pedagogical strategy, we skip to use complex numbers to keep the tutorial simpler. 
 
-#### Prerequisite
+### Prerequisite
 
-The only prerequisite is to know the basics of programming (variables and basic data types, loops, and conditionals). Any previous experience in python will be helpful. If you do not have any such experince, you can check our notebooks on python.
+The only prerequisite is to know the basics of programming (variables and basic data types, loops, and conditionals). Any previous experience in python will be helpful. If you do not have any such experince, you can check our notebooks on python before starting the tutorial.
 
 Bronze also has notebooks on the basic math to review your knowledge on the simple arithmetic operations on vectors and matrices.
 
-#### Bronze-Qiskit's sections
+### Bronze-Qiskit's sections
 
 - Python (for a quick review)
 - Basic math (for a quick review)
-- Classical systems (bits, coin-flipping, probabilistic state and operators, composite systems, correlation, and controlled operators)
+- Classical systems: bits, coin-flipping, probabilistic state and operators, composite systems, correlation, and controlled operators
 - Quantum systems with Qiskit
-    - Qiskit basics
-    - quantum basics (quantum coin-flipping and Hadamard, quantum state and opeators, visualization of a real-valued qubit, superpositon and measurements)
+    - Qiskit basics: circuit design, visualization, and simulation
+    - quantum basics: quantum coin-flipping and Hadamard operator, quantum states and opeators, visualization of a real-valued qubit, superposition and measurements
     - quantum operators on a real-valued single qubit (rotations and reflections) and quantum tomography
-    - entanglement and basics quantum protocols (superdense coding and quantum teleportation)
+    - entanglement and basic quantum protocols superdense coding and quantum teleportation
     - Grover's search algorithm
 
-Our next elementrary level tutorial Silver is under revision now, and we will start to prepare the advance level tutorial Gold in 2021.
+Our following elementrary level tutorial _Silver_ is under revision now, and we will start to prepare the advanced level tutorial Gold in 2021.
 
-### Contribution
+## Contribution
 
 Please make a pull request or create an issue for _reporting typo_ or _your corrections_.
 
@@ -36,7 +36,7 @@ Please create an issue for _your questions_, _initiating a discussion_, or _prop
 
 _Bronze is being developed under [QEducation departmant](https://qworld.net/qeducation/) of QWorld._
 
-### Installation
+## Installation
 
 Follow the instructions given in the [installation file](installation.pdf)!
 
@@ -48,47 +48,47 @@ Follow the instructions given in the [installation file](installation.pdf)!
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb)
 </small>
 
-### License
+## License
 
 The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), available at https://creativecommons.org/licenses/by/4.0/legalcode. 
 
 The code snippets in the notebooks are licensed under Apache License 2.0, available at http://www.apache.org/licenses/LICENSE-2.0.
 
-### Acknowledgements
+## Acknowledgements
 
 We use [MathJax](https://www.mathjax.org) to display mathematical expressions on html files (e.g., exercises).
 
 We use open source interactive tool [quantumgame](http://play.quantumgame.io) for showing quantum coin flipping experiments.
 
-### Credits
+## Credits
 
 Bronze was created by [Abuzer Yakaryilmaz](http://abu.lu.lv) (QWorld & QLatvia) in October 2018, and it has been developed and maintained by him. 
 
 Özlem Salehi Köken (QWorld & QTurkey) and Maksims Dimitrijevs (QWorld & QLatvia) are the other contributors by preparing new notebooks and revising the existing notebooks.
 
-Bronze was publicaly available on July 7, 2019.
+Bronze was publicly available on July 7, 2019.
 
 Bronze-Qiskit was released by Abuzer Yakaryilmaz in February 2021.
 
-**Video lectures**
+### Video lectures
 
-The first recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia).
+The recording lectures were prepared by Abuzer Yakaryilmaz, Özlem Salehi Köken, and Anastasija Trizna (QLatvia) in August 2020. New recordings will be uploaded in Spring 2021.
 
-**Bronze-Qiskit 2021**
+### Bronze-Qiskit 2021
 
 Agnieszka Wolska prepared the new graphics and logos.
 
-**Bronze 2020 & 2021**
+### Bronze 2020 & 2021
 
 We thank to the participants of QBronze workshops and [QTraining for Bronze program](https://qworld.net/qtraining-for-bronze-2020/) for their corrections and suggestions.
 
-**Bronze 2019**
+### Bronze 2019
 
 We thank to the mentors and participants of [QDrive](https://qworld.net/qdrive/) for their very helpful corrections and suggestions.
 
 We thank Adam Glos (QWorld & QPoland) for his comments on Bronze 2018.
 
-**Bronze 2018**
+### Bronze 2018
 
 We thank to Katrina Kizenbaha from Riga TechGirls for her revisions on our notebooks on python.
 
