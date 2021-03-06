@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '../include')
+sys.path.insert(0, '../qworld/include')
 
 from drawing import plot_2D_plane, draw_sides, draw_vector, place_text, show_plt
 
