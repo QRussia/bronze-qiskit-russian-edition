@@ -68,9 +68,8 @@ def draw_axes():
 
 
 def draw_unit_circle():
-	unit_circle= matplotlib.pyplot.Circle((0,0),1,color='black',fill=False)
-	plt.pyplot.gca().add_patch(unit_circle) 
-
+    unit_circle= plt.Circle((0,0),1,color='black',fill=False)
+    plt.gca().add_patch(unit_circle)
 	
 def draw_quantum_state(x,y,name):
 	# shorten the line length to 0.92
