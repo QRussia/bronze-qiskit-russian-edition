@@ -53,7 +53,7 @@ def draw_vector(x=1,y=2,vname="v",show_name=True,vcolor="b",sides=False,side_col
 
 def place_text(x,y,text,tcolor="blue"):
     plt.text(x,y,text,color=tcolor)
-   
+
 def show_plt():
     plt.show()
     
@@ -120,7 +120,7 @@ def draw_qubit_grover():
 	plt.text(0.05,1.05,"|marked>")
 	# drawing -|0>
 	plt.plot(-1,0,"o")
-	plt.pyplot.text(-0.98,-0.09,"-|unmarked>")
+	plt.text(-0.98,-0.09,"-|unmarked>")
 	# drawing -|1>
 	plt.plot(0,-1,"o")
 	plt.text(-0.4,-1.1,"-|marked>")
