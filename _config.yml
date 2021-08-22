@@ -1,0 +1,13 @@
+title: "QWorld's Bronze-Qiskit"
+logo: "qworld/images/QWorld.png"
+only_build_toc_files: false
+repository:
+  url: "https://gitlab.com/qworld/bronze-qiskit"
+html:
+  use_repository_button: true
+  baseurl: "/bronze-qiskit"
+execute:
+  execute_notebooks: force
+  allow_errors: true
+exclude_patterns:
+  - '.virtualenv'
