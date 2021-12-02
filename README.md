@@ -1,56 +1,47 @@
 ![](qworld/images/readme-logo.jpg)
 
-## [QWorld](https://qworld.net)'s Bronze-Qiskit
+## Адаптированная для школьников версия Bronze-Qiskit от [QWorld](https://qworld.net)
 
 Версия [**Bronze**](https://gitlab.com/qworld/bronze-qiskit) адаптированная под более юных будущих исследователей квантовых вычислений.
 
-### Prerequisite
+### Требования
 
-The only prerequisite is to know the basics of programming (variables and basic data types, loops, and conditionals). Any previous experience in python will be helpful. If you do not have any such experince, you can check our notebooks on python before starting the tutorial.
+Есть общие представления о сути программирования. Любой опыт в программировании будет плюсом. Отсутсвие опыта программирования на python не страшно, т.к. первый день посвящен основам Python.
 
-Bronze also has notebooks on the basic math to review your knowledge on the simple arithmetic operations on vectors and matrices.
+### Структура
 
-### Bronze-Qiskit's sections
+Мероприятие на основе этого материала рассчитано на 2.5 дня. Материал распределен по дням.
+- *Первый день*
+- Python (быстрый старт)
+- Базовые вещи по линейной алгебре
+- Классические системы: биты, двоичная система
+- *Второй день*
+- Квантовые системы с Qiskit
+    - Основы Qiskit
+    - Основы квантовых вычислений
+    - Инструменты, необходимые для построения алгоритма Гровера
+- *Третий день*
+    - Построение алгоритма Гровера
 
-- Python (for a quick review)
-- Basic math (for a quick review)
-- Classical systems: bits, coin-flipping, probabilistic state and operators, composite systems, correlation, and controlled operators
-- Quantum systems with Qiskit
-    - Qiskit basics: circuit design, visualization, and simulation
-    - quantum basics: quantum coin-flipping and Hadamard operator, quantum states and opeators, visualization of a real-valued qubit, superposition and measurements
-    - quantum operators on a real-valued single qubit (rotations and reflections) and quantum tomography
-    - entanglement and basic quantum protocols superdense coding and quantum teleportation
-    - Grover's search algorithm
+## Установка
 
-Our following elementrary level tutorial _Silver_ is under revision now, and we will start to prepare the advanced level tutorial Gold in 2021.
-
-## Contribution
-
-Please make a pull request or create an issue for _reporting typo_ or _your corrections_.
-
-Please create an issue for _your questions_, _initiating a discussion_, or _proposing a contribution_.
-
-_Bronze is being developed under [QEducation departmant](https://qworld.net/qeducation/) of QWorld._
-
-## Installation
-
-Follow the instructions given in the [installation file](installation.pdf)!
+Инструкция по установке [тут](installation.pdf)!
 
 <small>
 
-**Using Binder:** _You may [launch Bronze in the cloud with binder](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb) but **please be aware of that**_ 
-- _each time a new session is created, which takes some time to be initiated, and all changes are lost when ending the session; and,_
-- _the session might be terminated if a new tab is not opened within 10 minutes._
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/qworld%2Fbronze-qiskit/HEAD?urlpath=lab/tree/START.ipynb)
+**Использование Binder:** _Вы можете [запустить Bronze в облаке используя binder](https://hub.gke2.mybinder.org/user/qrussia-bronze-qiskit-junior-1ulsjns1/doc/tree/START_Junior.ipynb) но **будьте внимательны**_ 
+- _при каждом перезапуске создается новая сессия, что занимает определенный промежуток времени, также все ваши изменения будут стерты при завершении сессии;
+- _сессия может быть прервана, если таб с биндером не использовался более 10 минут._
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/qrussia-bronze-qiskit-junior-1ulsjns1/doc/tree/START_Junior.ipynb)
 </small>
 
-## License
+## Лицензия
 
-The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), available at https://creativecommons.org/licenses/by/4.0/legalcode. 
+Текст и картинки лицензированы Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), доступна тут https://creativecommons.org/licenses/by/4.0/legalcode. 
 
-The code snippets in the notebooks are licensed under Apache License 2.0, available at http://www.apache.org/licenses/LICENSE-2.0.
+Куски кода в ноутбуках лицензированы Apache License 2.0, доступна тут http://www.apache.org/licenses/LICENSE-2.0.
 
-## Acknowledgements
+## Признательность
 
 We use [MathJax](https://www.mathjax.org) to display mathematical expressions on html files (e.g., exercises).
 
