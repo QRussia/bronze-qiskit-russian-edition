@@ -29,10 +29,11 @@
 
 <small>
 
-**Использование Binder:** _Вы можете [запустить Bronze в облаке используя binder](https://hub.gke2.mybinder.org/user/qrussia-bronze-qiskit-junior-1ulsjns1/doc/tree/START_Junior.ipynb) но **будьте внимательны**_ 
+**Использование Binder:** _Вы можете [запустить Bronze в облаке используя binder](https://mybinder.org/) но **будьте внимательны**_ 
 - _при каждом перезапуске создается новая сессия, что занимает определенный промежуток времени, также все ваши изменения будут стерты при завершении сессии;
 - _сессия может быть прервана, если таб с биндером не использовался более 10 минут._
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/qrussia-bronze-qiskit-junior-1ulsjns1/doc/tree/START_Junior.ipynb)
+
+Для того, чтобы запустить Bronze в облаке, открываете [сайт](https://mybinder.org/), в поле "GitHub repository name or URL" вставляете URL текущего репозитория и нажимаете на "launch". В течение 5-7 минут у вас запустится облако с готовой Bronze.
 </small>
 
 ## Лицензия
