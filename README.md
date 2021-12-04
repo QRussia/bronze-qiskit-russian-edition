@@ -2,7 +2,7 @@
 
 ## Перевод Bronze-Qiskit от [QWorld](https://qworld.net)
 
-Переведенная и дополненная на русский язык версия [**Bronze**](https://gitlab.com/qworld/bronze-qiskit).
+Переведенная на русский язык и чутка дополненная версия [**Bronze**](https://gitlab.com/qworld/bronze-qiskit).
 
 ### Требования
 
