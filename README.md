@@ -1,8 +1,8 @@
 ![](qworld/images/readme-logo.jpg)
 
-## Адаптированная для школьников версия Bronze-Qiskit от [QWorld](https://qworld.net)
+## Перевод Bronze-Qiskit от [QWorld](https://qworld.net)
 
-Версия [**Bronze**](https://gitlab.com/qworld/bronze-qiskit) адаптированная под более юных будущих исследователей квантовых вычислений.
+Переведенная и дополненная на русский язык версия [**Bronze**](https://gitlab.com/qworld/bronze-qiskit).
 
 ### Требования
 
